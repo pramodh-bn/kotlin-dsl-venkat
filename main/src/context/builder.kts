@@ -1,3 +1,5 @@
+import context.build
+
 /**
  * Design for separate Implicit contexts
  * In a more complext DSL, where many different groups of
