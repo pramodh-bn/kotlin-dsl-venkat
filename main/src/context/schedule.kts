@@ -1,3 +1,5 @@
+import context.schedule
+
 // Use Inner classes to share state between contexts
 
 schedule meeting {
