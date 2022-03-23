@@ -7,7 +7,7 @@ schedule meeting {
     starts at 14..30
     ends at 15 ..30
     on date 15 March 2022
-    participant include "Sara" and "Jake" and "Mani"
+    participants include "Sara" and "Jake" and "Mani"
 }
 
 // schedule can be a singleton with meeting() as a function that takes lambda as a parameter
