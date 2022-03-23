@@ -80,7 +80,7 @@ class Meeting {
 
     override fun toString(): String = """Meeting: $meetingName
         |Starts at ${startTime.start}:${startTime.endInclusive}
-        |Ends at ${endTime.start}: ${endTime.endInclusive}
+        |Ends at ${endTime.start}:${endTime.endInclusive}
         |On $scheduledOn
         |Participants: ${attending}
         |
