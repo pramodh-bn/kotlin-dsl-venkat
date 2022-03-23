@@ -77,5 +77,13 @@ class Meeting {
         infix fun November(year: Int) = setScheduledOn(11, year)
         infix fun December(year: Int) = setScheduledOn(12, year)
     }
+
+    override fun toString(): String = """Meeting: $meetingName
+        |Starts at ${startTime.start}:${startTime.endInclusive}
+        |Ends at ${endTime.start}: ${endTime.endInclusive}
+        |On $scheduledOn
+        |Participants: ${attending}
+        |
+    """.trimMargin()
 }
 
