@@ -87,3 +87,10 @@ class Meeting {
     """.trimMargin()
 }
 
+/***
+ * This example showed up how multiple inner classes came together
+ * and used the instance of the outer class to share the state.
+ * Furthermore, the inner classes provided separate contexts for the functions and so
+ * removed the possibility of the user making ambiguous calls.
+ */
+
